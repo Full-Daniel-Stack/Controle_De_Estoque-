@@ -1,0 +1,27 @@
+<div class="menu">
+    <ul>    
+        <li>
+            <a href=@{HomeR}>
+                Principal
+        <li>
+            <a href=@{Page1R}>
+                Entrada de Produtos
+        <li>
+            <a href=@{Page3R}>
+                Estoque
+<form>
+    <h2>Venda de Produto
+    <label> Nome Vendedor:
+        <input type="text">
+    <label> Produto
+        <select>
+            <option value="valor1">Monitor
+            <option value="valor2" selected>Mouse
+            <option value="valor3">Teclado
+    <label> Quantidade:
+        <input type="number">
+    <label> Horario de Saida:
+        <input type="time" min="09:00" max="18:00" required>
+    <label> Valor do Produto
+        <input type="text">    
+    <input type="submit" value="Enviar">

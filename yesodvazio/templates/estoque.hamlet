@@ -1,0 +1,39 @@
+<div class="menu">
+    <ul>    
+        <li>
+            <a href=@{HomeR}>
+                Principal
+        <li>
+            <a href=@{Page1R}>
+                Entrada de Produtos
+        <li>
+            <a href=@{Page3R}>
+                Estoque
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">N°
+      <th scope="col">Produto
+      <th scope="col">Quantidade
+      <th scope="col">Horario de Entrada
+      <th scope="col">Horario de Saida
+  <tbody>
+    <tr>
+      <th scope="row">1
+      <td>Mouse
+      <td>2
+      <td>13:02
+      <td>15:01
+    <tr>
+      <th scope="row">1
+      <td>Monitor
+      <td>5
+      <td>11:02
+      <td>12:01
+    
+    <tr>
+      <th scope="row">1
+      <td>Teclado
+      <td>2
+      <td>15:02
+      <td>17:01

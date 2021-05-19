@@ -1,0 +1,9 @@
+/static StaticR Static appStatic
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/    HomeR  GET 
+/Entrada_de_Produtos Page1R GET 
+/Saida_de_Produtos Page2R GET 
+/Estoque Page3R GET
